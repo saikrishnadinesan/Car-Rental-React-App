@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Navigation from "./Navigation";
 
 
 const ViewCars = () => {
@@ -26,7 +27,8 @@ const ViewCars = () => {
 
   return (
     <div>
-        
+        <Navigation />
+
 
       <div className="container mt-4">
 
